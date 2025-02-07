@@ -24,5 +24,6 @@ namespace DesignPattern.Singletone
         {
             return DateTime.Now.ToString();
         }
+        
     }
 }

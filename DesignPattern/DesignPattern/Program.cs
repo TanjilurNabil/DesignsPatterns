@@ -6,3 +6,5 @@ Console.WriteLine("Hello, World!");
 DateTimeProvider d = DateTimeProvider.Instance;
 Console.WriteLine(d.GetCurrentDateTime());
 
+Logger l1  = Logger.GetLogger();
+l1.WriteLog("Hello, World!");
